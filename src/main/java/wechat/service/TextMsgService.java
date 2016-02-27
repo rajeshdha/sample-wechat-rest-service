@@ -6,6 +6,10 @@ public class TextMsgService {
 	String xmlMessage;
 	
 	/*text message 2*/
+
+	String xmlMessage;
+	
+	
 	public TextMsgService(String requestBody) {
 	
 		xmlMessage = requestBody;

@@ -9,6 +9,11 @@ public class Application {
 /*this is my second comment*/
     public static void main(String[] args) {
     	/*this is third comment*/
+
+@SpringBootApplication
+public class Application {
+
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 }
