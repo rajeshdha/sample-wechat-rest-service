@@ -20,6 +20,7 @@ public class AuthService {
 
 		return true;
 	}
+/*This is C3 checkin*/
 
 	protected static String getStringToHash(String timestamp, String nonce,
 			String token) {
