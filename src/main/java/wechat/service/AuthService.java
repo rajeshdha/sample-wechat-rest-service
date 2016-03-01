@@ -23,6 +23,7 @@ public class AuthService {
 		return true;
 	}
 /*This is C3 checkin*/
+/*This is c3333 checkin from test1branch*/
 
 	protected static String getStringToHash(String timestamp, String nonce,
 			String token) {
