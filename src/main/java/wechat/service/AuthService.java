@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.security.NoSuchAlgorithmException;
 
 public class AuthService {
-
+/* This is C1 Checkin */
 	public boolean validateAuth(String signature, String timestamp, String nonce, String echostr, String token) {
 
 		String createdSignature = hash(getStringToHash(timestamp, nonce, token));
