@@ -10,6 +10,7 @@ public class AuthService {
 /* This is C1 Checkin */
 /* This is C11 checkin */
 /*This is C111 checkin from test1branch*/
+/*This is c1111 checkin from master*/
 	public boolean validateAuth(String signature, String timestamp, String nonce, String echostr, String token) {
 
 		String createdSignature = hash(getStringToHash(timestamp, nonce, token));
@@ -23,6 +24,8 @@ public class AuthService {
 		return true;
 	}
 /*This is C3 checkin*/
+/*This is C33 checkin in master*/
+/*This is C333 checkin in master*/
 /*This is c3333 checkin from test1branch*/
 
 	protected static String getStringToHash(String timestamp, String nonce,
